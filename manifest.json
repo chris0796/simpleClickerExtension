@@ -1,0 +1,15 @@
+{
+   "manifest_version": 2,
+   "name": "Clicker",
+   "version": "1.0",
+   "description": "Clicker",
+   "icons": {
+       "128": "128.png"
+   },
+   "content_scripts": [
+       {
+           "matches": [ "yourdomain.com" ],
+           "js": [ "app.js" ]
+       }
+   ]
+}
